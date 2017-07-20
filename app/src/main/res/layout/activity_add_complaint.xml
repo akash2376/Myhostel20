@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.akash.myhostel.Add_complaint">
+
+    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toTopOf="@id/studentIdAc" android:inputType="textPersonName" android:drawablePadding="10.0dip" android:drawableLeft="@drawable/ic_person_black_24dp" android:ems="10" android:hint="Name" android:layout_margin="8.0dip" android:padding="10.0sp" android:background="@drawable/rounded_edittext" android:id="@id/nameAC"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toTopOf="@id/roomAc" android:inputType="textPersonName" android:drawablePadding="10.0dip" android:drawableLeft="@drawable/ic_featured_play_list_black_24dp" android:ems="10" android:hint="Enter Student ID" android:layout_margin="8.0dip" android:padding="10.0sp" android:background="@drawable/rounded_edittext" android:id="@id/studentIdAc" app:layout_constraintTop_toBottomOf="@id/nameAC"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toTopOf="@id/mobileAc" android:inputType="number" android:drawablePadding="10.0dip" android:drawableLeft="@drawable/ic_domain_black_24dp" android:ems="10" android:hint="Room Number" android:layout_margin="8.0dip" android:padding="10.0sp" android:background="@drawable/rounded_edittext" android:id="@id/roomAc" app:layout_constraintTop_toBottomOf="@id/studentIdAc"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toTopOf="@id/hostelAc" android:inputType="phone" android:drawablePadding="10.0dip" android:drawableLeft="@drawable/ic_phone_black_24dp" android:ems="10" android:hint="Mobile Number" android:layout_margin="8.0dip" android:padding="10.0sp" android:background="@drawable/rounded_edittext" android:id="@id/mobileAc" app:layout_constraintTop_toBottomOf="@id/roomAc"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toTopOf="@id/problemTypeAC" android:inputType="textPersonName" android:drawablePadding="10.0dip" android:drawableLeft="@drawable/ic_domain_black_24dp" android:ems="10" android:hint="Hostel Name" android:layout_margin="8.0dip" android:padding="10.0sp" android:background="@drawable/rounded_edittext" android:id="@id/hostelAc" app:layout_constraintTop_toBottomOf="@id/mobileAc"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toTopOf="@id/descriptionAc" android:inputType="text" android:drawablePadding="10.0dip" android:drawableLeft="@drawable/ic_error_black_24dp" android:ems="10" android:hint="Problem Type" android:layout_margin="8.0dip" android:padding="10.0sp" android:background="@drawable/rounded_edittext" android:id="@id/problemTypeAC" app:layout_constraintTop_toBottomOf="@id/hostelAc"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toTopOf="@id/button" android:inputType="textMultiLine" android:ems="10" android:hint="Description" android:layout_margin="8.0dip" android:padding="10.0sp" android:background="@drawable/rounded_edittext" android:id="@id/descriptionAc" app:layout_constraintTop_toBottomOf="@id/problemTypeAC" android:layout_marginBottom="24.0dip"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="fill_parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="1.0" app:layout_constraintEnd_toEndOf="parent" android:layout_margin="8.0dip" android:padding="8.0dip" android:id="@id/button" app:layout_constraintTop_toBottomOf="@id/descriptionAc" android:layout_marginBottom="8.0dip" app:layout_constraintBottom_toBottomOf="parent" android:text="Register" android:layout_marginTop="24.0dip"/>
+</android.support.constraint.ConstraintLayout>
+
+

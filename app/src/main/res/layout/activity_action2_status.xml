@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imageView2" android:layout_width="103.0dip" android:layout_height="79.0dip" android:layout_marginTop="44.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.501" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/success" />
+    <TextView android:textSize="18.0sp" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="68.0dip" android:text="Your Complain Registered Successfullly" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/imageView2" />
+    <TextView android:textSize="18.0sp" android:id="@id/textView18" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:text="Complaint Nimber : -" app:layout_constraintEnd_toStartOf="@id/comIDres" app:layout_constraintHorizontal_bias="0.486" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/textView2" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/appColor" android:id="@id/comIDres" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:layout_marginBottom="8.0dip" android:text="TextView" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/textView2" app:layout_constraintVertical_bias="0.0" />
+    <Button android:id="@id/homeBtn" android:padding="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="HOME" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/textView18" app:layout_constraintVertical_bias="0.358" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="44dp" />
+</android.support.constraint.ConstraintLayout>

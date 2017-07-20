@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/cstatus" android:layout_width="109.0dip" android:layout_height="24.0dip" android:layout_marginTop="76.0dip" android:text="Status" app:layout_constraintEnd_toStartOf="@id/st" app:layout_constraintHorizontal_bias="0.721" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:id="@id/st" android:layout_width="137.0dip" android:layout_height="27.0dip" android:layout_marginTop="76.0dip" android:text="-" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
